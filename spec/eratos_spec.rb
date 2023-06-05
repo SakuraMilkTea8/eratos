@@ -1,5 +1,6 @@
+require 'prime'
 require File.expand_path(File.dirname(__FILE__) + '/../eratos')
-require 'rspec/autorun'
+require 'rspec'
 
 describe Eratos do
     it "finds out the type of triangle when given measurements" do
